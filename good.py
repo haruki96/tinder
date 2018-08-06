@@ -8,20 +8,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 
-#session = requests.session()
 i=1
 
-
-driver = webdriver.Chrome("c:/Users/haruki/Desktop/chromedriver.exe")
+driver = webdriver.Chrome("c:/Users/----------/chromedriver.exe")
 
 driver.get("https://tinder.com/app/login")
-
-######
-PHONE_NUMBER = "08011453035"
-login_info = {
-    "phone_number":PHONE_NUMBER,
-}
-######
 
 key = input('type "y":')
 people = 100
